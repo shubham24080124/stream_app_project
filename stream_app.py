@@ -72,7 +72,7 @@ def train_and_evaluate(X_train, y_train, X_test, y_test, model_name):
 
 def main():
     st.set_option('deprecation.showPyplotGlobalUse', False)
-    st.title("Predictive Maintenance Model")
+    st.title("Predictive Maintenance Model for Windmill")
     st.session_state.setdefault('current_step', 0)
     st.session_state.setdefault('file_uploader_counter', 0)
     st.session_state.setdefault('df', None)
